@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-17 11:08:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d651d47fdb6be700144cfbc61d961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_mscdx_demand_demand.x_mscdx_demand.demand_user</sys_name>
+        <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
+        <sys_security_acl display_value="x_mscdx_demand_demand">1a51d47fdb6be700144cfbc61d961914</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d651d47fdb6be700144cfbc61d961918</sys_update_name>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-17 11:08:55</sys_updated_on>
+        <sys_user_role display_value="x_mscdx_demand.demand_user" name="x_mscdx_demand.demand_user">4a51183fdb6be700144cfbc61d961957</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
