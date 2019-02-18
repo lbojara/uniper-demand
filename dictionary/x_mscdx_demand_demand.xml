@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Demand" max_length="40" name="x_mscdx_demand_demand" type="collection"/>
+    <element extends="task" label="Demand" max_length="40" name="x_mscdx_demand_demand" type="collection">
+        <element choice="1" label="Affected module" max_length="40" name="u_affected_module" type="choice">
+            <choice/>
+        </element>
+        <element label="Approver" max_length="32" name="u_approver" reference="sys_user" type="reference"/>
+        <element label="Business Justification" max_length="4000" name="u_business_justification" type="string"/>
+        <element choice="1" label="Complexity" max_length="40" name="u_complexity" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Estimated development" max_length="40" name="u_estimated_development" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Risk if not implemented" max_length="40" name="u_no_implement_risk" type="choice">
+            <choice/>
+        </element>
+        <element label="Project id" max_length="100" name="u_project_id" type="string"/>
+        <element label="Project manager" max_length="32" name="u_project_manager" reference="sys_user" type="reference"/>
+        <element label="Project name" max_length="100" name="u_project_name" type="string"/>
+        <element default="False" label="Project related" max_length="40" name="u_project_related" type="boolean"/>
+        <element label="Requested for" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element label="Draft solution design" max_length="4000" name="u_solution_design" type="string"/>
+        <element label="Stage" max_length="80" name="u_stage" type="workflow"/>
+    </element>
 </database>
