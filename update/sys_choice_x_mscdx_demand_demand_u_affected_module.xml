@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_affected_module" table="x_mscdx_demand_demand" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_affected_module</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Case Exchange</label>
+            <language>en</language>
+            <name>x_mscdx_demand_demand</name>
+            <sequence>100</sequence>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-18 11:55:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e985254cdb3b2b00144cfbc61d96190e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-18 11:58:05</sys_updated_on>
+            <value>case_exchange</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_affected_module</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Change</label>
+            <language>en</language>
+            <name>x_mscdx_demand_demand</name>
+            <sequence>200</sequence>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-18 11:55:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee95618cdb3b2b00144cfbc61d9619ee</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-18 11:58:10</sys_updated_on>
+            <value>change</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_affected_module</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CMDB</label>
+            <language>en</language>
+            <name>x_mscdx_demand_demand</name>
+            <sequence>300</sequence>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-18 11:55:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>02a5254cdb3b2b00144cfbc61d961910</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-18 11:58:13</sys_updated_on>
+            <value>cmdb</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_affected_module</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Incident</label>
+            <language>en</language>
+            <name>x_mscdx_demand_demand</name>
+            <sequence>400</sequence>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-18 11:56:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9cb5adccdb3b2b00144cfbc61d9619b5</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-18 11:58:16</sys_updated_on>
+            <value>Incident</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_affected_module</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Problem</label>
+            <language>en</language>
+            <name>x_mscdx_demand_demand</name>
+            <sequence>500</sequence>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-18 11:56:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7b56100db7b2b00144cfbc61d961997</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-18 11:58:19</sys_updated_on>
+            <value>problem</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_affected_module</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Report</label>
+            <language>en</language>
+            <name>x_mscdx_demand_demand</name>
+            <sequence>600</sequence>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-18 11:56:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ec56d4cdb3b2b00144cfbc61d96195f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-18 11:58:22</sys_updated_on>
+            <value>report</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_affected_module</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request</label>
+            <language>en</language>
+            <name>x_mscdx_demand_demand</name>
+            <sequence>700</sequence>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-18 11:56:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ced56100db7b2b00144cfbc61d961997</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-18 11:58:25</sys_updated_on>
+            <value>request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_affected_module</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request Catalog</label>
+            <language>en</language>
+            <name>x_mscdx_demand_demand</name>
+            <sequence>800</sequence>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-18 11:56:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18e5a100db7b2b00144cfbc61d96193a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-18 11:58:28</sys_updated_on>
+            <value>request_catalog</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_affected_module</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Service Portal</label>
+            <language>en</language>
+            <name>x_mscdx_demand_demand</name>
+            <sequence>900</sequence>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-18 11:57:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8be5edccdb3b2b00144cfbc61d9619fe</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-18 11:58:32</sys_updated_on>
+            <value>service_portal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_affected_module</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_mscdx_demand_demand</name>
+            <sequence>1000</sequence>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-18 11:57:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e2f5edccdb3b2b00144cfbc61d9619ff</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-18 11:58:35</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_affected_module</element>
+            <name>x_mscdx_demand_demand</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-18 11:55:30</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1295edccdb3b2b00144cfbc61d9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_affected_module</sys_name>
+            <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
+            <sys_update_name>sys_choice_x_mscdx_demand_demand_u_affected_module</sys_update_name>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-18 11:55:30</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
