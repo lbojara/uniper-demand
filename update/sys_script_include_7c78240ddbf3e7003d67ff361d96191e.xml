@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_mscdx_demand.demandUtils</api_name>
+        <client_callable>true</client_callable>
+        <description>Additional functions for demand applications</description>
+        <name>demandUtils</name>
+        <script><![CDATA[var demandUtils = Class.create();
+demandUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	getModuleApprover: function(affectedModule){
+		var moduleName = this.getParameter('sysparm_affected_module') ? this.getParameter('sysparm_affected_module') : affectedModule;
+		var returnApprover = {};
+		var approver = new GlideRecord('x_mscdx_demand_demand_approvers');
+		approver.addQuery('u_module',moduleName);
+		approver.addQuery('u_active',true);
+		approver.orderBy('u_order');
+		approver.setLimit(1);
+		approver.query();
+		if (approver.hasNext()){
+			while (approver.next()){
+				returnApprover.value = approver.getValue('u_approver');
+				returnApprover.displayValue = approver.getDisplayValue('u_approver');
+
+				return JSON.stringify(returnApprover);
+			}
+		} else {
+			return;
+		}
+		//returnApprover.value = approver.getEncodedQuery();
+		///	return JSON.stringify(returnApprover);
+		
+		/*if (approver.hasNext()) {
+			returnApprover.value = approver.getValue('u_approver');
+			returnApprover.displayValue = approver.getDisplayValue('u_approver');
+			
+			return JSON.stringify(returnApprover);
+		} else {
+			
+			returnApprover.value = 'nic';
+			return JSON.stringify(returnApprover);
+		}*/
+		
+		
+		
+	},
+	
+    type: 'demandUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-21 10:03:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7c78240ddbf3e7003d67ff361d96191e</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>demandUtils</sys_name>
+        <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
+        <sys_update_name>sys_script_include_7c78240ddbf3e7003d67ff361d96191e</sys_update_name>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-21 11:04:18</sys_updated_on>
+    </sys_script_include>
+</record_update>
