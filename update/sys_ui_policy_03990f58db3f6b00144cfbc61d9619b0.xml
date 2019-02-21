@@ -21,7 +21,7 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>(LB) Make project fields visible nad mandatory if project flag is marked</short_description>
+        <short_description>(FRU) Make project fields visible nad mandatory if project flag is marked</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>L18954</sys_created_by>
         <sys_created_on>2019-02-19 13:52:06</sys_created_on>
@@ -29,8 +29,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>03990f58db3f6b00144cfbc61d9619b0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>(LB) Make project fields visible nad mandatory if project flag is marked</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>(FRU) Make project fields visible nad mandatory if project flag is marked</sys_name>
         <sys_overrides/>
         <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
         <sys_policy/>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
         <sys_update_name>sys_ui_policy_03990f58db3f6b00144cfbc61d9619b0</sys_update_name>
         <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-02-19 13:52:06</sys_updated_on>
+        <sys_updated_on>2019-02-21 12:49:34</sys_updated_on>
         <table>x_mscdx_demand_demand</table>
         <ui_type>0</ui_type>
         <view/>

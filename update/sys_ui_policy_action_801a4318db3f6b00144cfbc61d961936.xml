@@ -19,7 +19,7 @@
         <sys_updated_by>L18954</sys_updated_by>
         <sys_updated_on>2019-02-19 13:53:09</sys_updated_on>
         <table>x_mscdx_demand_demand</table>
-        <ui_policy display_value="(LB) Make project fields visible nad mandatory if project flag is marked">03990f58db3f6b00144cfbc61d9619b0</ui_policy>
+        <ui_policy display_value="(FRU) Make project fields visible nad mandatory if project flag is marked">03990f58db3f6b00144cfbc61d9619b0</ui_policy>
         <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>
