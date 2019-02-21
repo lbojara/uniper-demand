@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Work log" section_id="13fb3250db3f6b00144cfbc61d96196c" sys_domain="global" table="x_mscdx_demand_demand" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>0</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-19 12:51:52</sys_created_on>
+            <sys_id>b91cb250db3f6b00144cfbc61d961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work log" display_value="Work log" name="x_mscdx_demand_demand" sys_domain="global" view="Default view">13fb3250db3f6b00144cfbc61d96196c</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-19 12:51:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>1</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-19 12:51:52</sys_created_on>
+            <sys_id>3d1cb250db3f6b00144cfbc61d961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">b832d3560a0001c700d781efe21e22f5</sys_ui_formatter>
+            <sys_ui_section caption="Work log" display_value="Work log" name="x_mscdx_demand_demand" sys_domain="global" view="Default view">13fb3250db3f6b00144cfbc61d96196c</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-19 12:51:52</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Work log</caption>
+            <header>false</header>
+            <name>x_mscdx_demand_demand</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-19 12:51:26</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13fb3250db3f6b00144cfbc61d96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Work log</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
+            <sys_update_name>sys_ui_section_13fb3250db3f6b00144cfbc61d96196c</sys_update_name>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-19 12:51:26</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

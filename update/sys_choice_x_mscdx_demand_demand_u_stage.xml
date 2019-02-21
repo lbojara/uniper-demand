@@ -6,18 +6,37 @@
             <element>u_stage</element>
             <hint/>
             <inactive>false</inactive>
+            <label>New</label>
+            <language>en</language>
+            <name>x_mscdx_demand_demand</name>
+            <sequence>10</sequence>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-20 12:44:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8bf308f8dbbbab00144cfbc61d9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-20 12:44:39</sys_updated_on>
+            <value>new</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_stage</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Waiting for pre-approve</label>
             <language>en</language>
             <name>x_mscdx_demand_demand</name>
-            <sequence>0</sequence>
+            <sequence>100</sequence>
             <sys_created_by>L18954</sys_created_by>
             <sys_created_on>2019-02-18 08:34:54</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>ddc67880dbf72b00144cfbc61d96194c</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>L18954</sys_updated_by>
-            <sys_updated_on>2019-02-18 08:38:44</sys_updated_on>
+            <sys_updated_on>2019-02-20 12:44:06</sys_updated_on>
             <value>waiting_preapprove</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -28,15 +47,15 @@
             <label>Solution design</label>
             <language>en</language>
             <name>x_mscdx_demand_demand</name>
-            <sequence>1</sequence>
+            <sequence>200</sequence>
             <sys_created_by>L18954</sys_created_by>
             <sys_created_on>2019-02-18 08:35:50</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c8b734c0dbf72b00144cfbc61d9619a3</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>L18954</sys_updated_by>
-            <sys_updated_on>2019-02-18 08:38:59</sys_updated_on>
+            <sys_updated_on>2019-02-20 12:44:09</sys_updated_on>
             <value>solution_design</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -47,15 +66,15 @@
             <label>Waiting for approval</label>
             <language>en</language>
             <name>x_mscdx_demand_demand</name>
-            <sequence>2</sequence>
+            <sequence>300</sequence>
             <sys_created_by>L18954</sys_created_by>
             <sys_created_on>2019-02-18 08:36:23</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>25e77c80dbf72b00144cfbc61d96195d</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>L18954</sys_updated_by>
-            <sys_updated_on>2019-02-18 08:39:21</sys_updated_on>
+            <sys_updated_on>2019-02-20 12:44:12</sys_updated_on>
             <value>waiting_approval</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -66,15 +85,15 @@
             <label>Development</label>
             <language>en</language>
             <name>x_mscdx_demand_demand</name>
-            <sequence>3</sequence>
+            <sequence>400</sequence>
             <sys_created_by>L18954</sys_created_by>
             <sys_created_on>2019-02-18 08:36:59</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>b71834c0dbf72b00144cfbc61d961999</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>L18954</sys_updated_by>
-            <sys_updated_on>2019-02-18 08:39:27</sys_updated_on>
+            <sys_updated_on>2019-02-20 12:44:15</sys_updated_on>
             <value>development</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -85,15 +104,15 @@
             <label>Tests</label>
             <language>en</language>
             <name>x_mscdx_demand_demand</name>
-            <sequence>4</sequence>
+            <sequence>500</sequence>
             <sys_created_by>L18954</sys_created_by>
             <sys_created_on>2019-02-18 08:37:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>52287c80dbf72b00144cfbc61d9619e9</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>L18954</sys_updated_by>
-            <sys_updated_on>2019-02-18 08:39:33</sys_updated_on>
+            <sys_updated_on>2019-02-20 12:44:18</sys_updated_on>
             <value>tests</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -104,15 +123,15 @@
             <label>Deployment</label>
             <language>en</language>
             <name>x_mscdx_demand_demand</name>
-            <sequence>5</sequence>
+            <sequence>600</sequence>
             <sys_created_by>L18954</sys_created_by>
             <sys_created_on>2019-02-18 08:37:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>904838c0dbf72b00144cfbc61d9619be</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>L18954</sys_updated_by>
-            <sys_updated_on>2019-02-18 08:39:37</sys_updated_on>
+            <sys_updated_on>2019-02-20 12:44:21</sys_updated_on>
             <value>deployment</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -123,15 +142,15 @@
             <label>Completed</label>
             <language>en</language>
             <name>x_mscdx_demand_demand</name>
-            <sequence>6</sequence>
+            <sequence>700</sequence>
             <sys_created_by>L18954</sys_created_by>
             <sys_created_on>2019-02-18 08:38:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c85834c0dbf72b00144cfbc61d96199a</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>L18954</sys_updated_by>
-            <sys_updated_on>2019-02-18 08:39:42</sys_updated_on>
+            <sys_updated_on>2019-02-20 12:44:24</sys_updated_on>
             <value>completed</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">

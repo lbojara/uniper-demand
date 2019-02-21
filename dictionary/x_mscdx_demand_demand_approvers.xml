@@ -3,9 +3,24 @@
     <element label="Demand Approvers" max_length="40" name="x_mscdx_demand_demand_approvers" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="Approver" max_length="32" name="u_approver" reference="sys_user" type="reference"/>
         <element choice="1" label="Module" max_length="40" name="u_module" type="choice">
-            <choice/>
+            <choice>
+                <element label="Case Exchange" sequence="100" value="case_exchange"/>
+                <element label="Change" sequence="200" value="change"/>
+                <element label="CMDB" sequence="300" value="cmdb"/>
+                <element label="Incident" sequence="400" value="incident"/>
+                <element label="Problem" sequence="500" value="problem"/>
+                <element label="Report" sequence="600" value="report"/>
+                <element label="Request" sequence="700" value="request"/>
+                <element label="Request Catalog" sequence="800" value="request_catalog"/>
+                <element label="Service Portal" sequence="900" value="service_portal"/>
+                <element label="Other" sequence="1000" value="other"/>
+            </choice>
         </element>
         <element label="Order" max_length="40" name="u_order" type="integer"/>
+        <index name="index">
+            <element name="u_approver"/>
+        </index>
     </element>
 </database>

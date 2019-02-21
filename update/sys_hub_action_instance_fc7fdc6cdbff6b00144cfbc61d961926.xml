@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">d3f92c160b10030085c083eb37673a7f</action_type>
+        <comment>Wait for the solution design to be ready.</comment>
+        <compiled_snapshot display_value="Wait For Condition">d3f92c160b10030085c083eb37673a7f</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Demand Lifecycle Flow">607f9c6cdbff6b00144cfbc61d9619f8</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-19 20:05:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fc7fdc6cdbff6b00144cfbc61d961926</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
+        <sys_update_name>sys_hub_action_instance_fc7fdc6cdbff6b00144cfbc61d961926</sys_update_name>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-19 20:05:59</sys_updated_on>
+        <ui_id>ee5c80e0-1534-4857-84a7-070cbc80bc07</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fc7fdc6cdbff6b00144cfbc61d961926"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fc7fdc6cdbff6b00144cfbc61d961926</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-19 20:05:59</sys_created_on>
+        <sys_id>347fdc6cdbff6b00144cfbc61d96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-19 20:05:59</sys_updated_on>
+        <value>x_mscdx_demand_demand_task</value>
+        <variable display_value="">1ff92c160b10030085c083eb37673a81</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fc7fdc6cdbff6b00144cfbc61d961926</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-19 20:05:59</sys_created_on>
+        <sys_id>707fdc6cdbff6b00144cfbc61d96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-19 20:05:59</sys_updated_on>
+        <value>u_state=closed_complete</value>
+        <variable display_value="">5ff92c160b10030085c083eb37673ac1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fc7fdc6cdbff6b00144cfbc61d961926"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>fc7fdc6cdbff6b00144cfbc61d961926</id>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-19 20:05:59</sys_created_on>
+        <sys_id>787fdc6cdbff6b00144cfbc61d961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-19 20:05:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>fc7fdc6cdbff6b00144cfbc61d961926</id>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-19 20:05:59</sys_created_on>
+        <sys_id>fc7fdc6cdbff6b00144cfbc61d961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-19 20:05:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value>{{e0e816b9-7225-487a-bee3-ff72c30dd9a4.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>fc7fdc6cdbff6b00144cfbc61d961926</id>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-19 20:05:59</sys_created_on>
+        <sys_id>3c7fdc6cdbff6b00144cfbc61d961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-19 20:05:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

@@ -1,19 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Demand Task" max_length="40" name="x_mscdx_demand_demand_task" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Assigned to" max_length="32" name="u_assigned_to" reference="sys_user" type="reference"/>
-        <element label="Parent" max_length="32" name="u_parent" reference="x_mscdx_demand_demand" type="reference"/>
-        <element label="Short description" max_length="40" name="u_short_description" type="string"/>
-        <element choice="1" label="State" max_length="40" name="u_state" type="choice">
-            <choice/>
-        </element>
-        <element label="Work notes" max_length="4000" name="u_work_notes" type="journal_input"/>
-        <index name="index">
-            <element name="u_assigned_to"/>
-        </index>
-        <index name="index2">
-            <element name="u_parent"/>
-        </index>
-    </element>
+    <element audit="true" extends="task" label="Demand Task" max_length="40" name="x_mscdx_demand_demand_task" sizeclass="1" type="collection"/>
 </database>

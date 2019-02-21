@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Demand" max_length="40" name="x_mscdx_demand_demand" type="collection">
+    <element audit="true" extends="task" label="Demand" max_length="40" name="x_mscdx_demand_demand" sizeclass="1" type="collection">
+        <element choice="1" label="Demand type" max_length="40" name="demand_type" type="choice">
+            <choice>
+                <element label="New funcionality" sequence="100" value="new"/>
+                <element label="Enhancement" sequence="200" value="enhancement"/>
+                <element label="Correction" sequence="300" value="correction"/>
+                <element label="Bug fix" sequence="400" value="bug"/>
+            </choice>
+        </element>
         <element choice="1" label="Affected module" max_length="40" name="u_affected_module" type="choice">
             <choice>
                 <element label="Case Exchange" sequence="100" value="case_exchange"/>
@@ -16,22 +24,38 @@
             </choice>
         </element>
         <element label="Approver" max_length="32" name="u_approver" reference="sys_user" type="reference"/>
-        <element label="Business Justification" max_length="4000" name="u_business_justification" type="string"/>
+        <element label="Business Justification" mandatory="true" max_length="4000" name="u_business_justification" type="string"/>
         <element choice="1" label="Complexity" max_length="40" name="u_complexity" type="choice">
-            <choice/>
+            <choice>
+                <element label="Low" sequence="100" value="low"/>
+                <element label="Medium" sequence="200" value="medium"/>
+                <element label="High" sequence="300" value="high"/>
+            </choice>
         </element>
         <element choice="1" label="Estimated development" max_length="40" name="u_estimated_development" type="choice">
-            <choice/>
+            <choice>
+                <element label="Less than 2 hours" sequence="100" value="xs"/>
+                <element label="Less than 1 day" sequence="200" value="s"/>
+                <element label="1 - 2 days" sequence="300" value="m"/>
+                <element label="3 - 5 days" sequence="400" value="l"/>
+                <element label="6 - 10 days" sequence="500" value="xl"/>
+                <element label="More than 10 days" sequence="600" value="xxl"/>
+            </choice>
         </element>
         <element choice="1" label="Risk if not implemented" max_length="40" name="u_no_implement_risk" type="choice">
-            <choice/>
+            <choice>
+                <element label="No risk" sequence="100" value="no_risk"/>
+                <element label="Low" sequence="200" value="low"/>
+                <element label="Medium" sequence="300" value="medium"/>
+                <element label="High" sequence="400" value="high"/>
+            </choice>
         </element>
         <element label="Project id" max_length="100" name="u_project_id" type="string"/>
         <element label="Project manager" max_length="32" name="u_project_manager" reference="sys_user" type="reference"/>
         <element label="Project name" max_length="100" name="u_project_name" type="string"/>
-        <element default="False" label="Project related" max_length="40" name="u_project_related" type="boolean"/>
+        <element label="Project related" max_length="40" name="u_project_related" type="boolean"/>
         <element label="Requested for" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element label="Draft solution design" max_length="4000" name="u_solution_design" type="string"/>
-        <element label="Stage" max_length="80" name="u_stage" type="workflow"/>
+        <element default="new" label="Stage" max_length="80" name="u_stage" type="workflow"/>
     </element>
 </database>

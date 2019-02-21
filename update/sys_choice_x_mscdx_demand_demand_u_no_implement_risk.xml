@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_no_implement_risk" table="x_mscdx_demand_demand" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_no_implement_risk</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No risk</label>
+            <language>en</language>
+            <name>x_mscdx_demand_demand</name>
+            <sequence>100</sequence>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-19 12:21:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5153ed8dbfb6b00144cfbc61d9619d6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-19 12:21:37</sys_updated_on>
+            <value>no_risk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_no_implement_risk</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Low</label>
+            <language>en</language>
+            <name>x_mscdx_demand_demand</name>
+            <sequence>200</sequence>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-19 12:21:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f1576d8dbfb6b00144cfbc61d961954</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-19 12:21:48</sys_updated_on>
+            <value>low</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_no_implement_risk</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medium</label>
+            <language>en</language>
+            <name>x_mscdx_demand_demand</name>
+            <sequence>300</sequence>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-19 12:21:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb25fad8dbfb6b00144cfbc61d961969</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-19 12:22:03</sys_updated_on>
+            <value>medium</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_no_implement_risk</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High</label>
+            <language>en</language>
+            <name>x_mscdx_demand_demand</name>
+            <sequence>400</sequence>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-19 12:22:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2635fad8dbfb6b00144cfbc61d96196a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-19 12:22:14</sys_updated_on>
+            <value>high</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_no_implement_risk</element>
+            <name>x_mscdx_demand_demand</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-19 12:21:26</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b315fad8dbfb6b00144cfbc61d961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_no_implement_risk</sys_name>
+            <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
+            <sys_update_name>sys_choice_x_mscdx_demand_demand_u_no_implement_risk</sys_update_name>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-19 12:21:26</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

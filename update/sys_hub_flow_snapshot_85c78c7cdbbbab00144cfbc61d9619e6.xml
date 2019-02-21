@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Responsible for the lifecycle of a demand.</description>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger➛Demand Record","reference":"x_mscdx_demand_demand","reference_display":"Demand","type":"reference","base_type":"reference"},{"name":"33534d1f-03dd-4cad-ba23-3e5a0d5e4c0c.record","label":"1➛Demand Record","reference":"x_mscdx_demand_demand","reference_display":"Demand","type":"reference","base_type":"reference"},{"name":"{{static.779915fadb9a1f00467ffbc61d96194c}}","label":"Christian Florian Rügge","reference":"sys_user","type":"reference","base_type":"reference"},{"name":"Created_1.current.number","label":"Trigger➛Demand Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_mscdx_demand_demand","column_name":"number"},{"name":"Created_1.current.state","label":"Trigger➛Demand Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_mscdx_demand_demand","column_name":"state","choices":[{"used":false,"reference":false,"label":"Pending","selected":false,"rawLabel":"Pending","image":"","missing":false,"value":"-5"},{"used":false,"reference":false,"label":"Open","selected":false,"rawLabel":"Open","image":"","missing":false,"value":"1"},{"used":false,"reference":false,"label":"In progress","selected":false,"rawLabel":"In progress","image":"","missing":false,"value":"2"},{"used":false,"reference":false,"label":"Awaiting","selected":false,"rawLabel":"Awaiting","image":"","missing":false,"value":"8"},{"used":false,"reference":false,"label":"Closed Complete","selected":false,"rawLabel":"Closed Complete","image":"","missing":false,"value":"3"},{"used":false,"reference":false,"label":"Closed Incomplete","selected":false,"rawLabel":"Closed Incomplete","image":"","missing":false,"value":"4"},{"used":false,"reference":false,"label":"Closed Skipped","selected":false,"rawLabel":"Closed Skipped","image":"","missing":false,"value":"7"}]},{"name":"6d2ff693-08e6-407d-82a9-9b927cda918c.Record.description","label":"3➛Demand Task Record➛Solution design","reference":"","reference_display":"Solution design","type":"string","base_type":"string","parent_table_name":"x_mscdx_demand_demand_task","column_name":"description"},{"name":"Created_1.current.u_approver","label":"Trigger➛Demand Record➛Approver","reference":"sys_user","reference_display":"Approver","type":"reference","base_type":"reference","parent_table_name":"x_mscdx_demand_demand","column_name":"u_approver"}]</label_cache>
+        <name>Demand Main Process Flow</name>
+        <parent_flow/>
+        <remote_trigger_id/>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-20 13:00:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>85c78c7cdbbbab00144cfbc61d9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demand Main Process Flow</sys_name>
+        <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_85c78c7cdbbbab00144cfbc61d9619e6</sys_update_name>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-20 13:00:59</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>
