@@ -9,7 +9,7 @@
                 <element label="Bug fix" sequence="400" value="bug"/>
             </choice>
         </element>
-        <element choice="1" label="Affected module" max_length="40" name="u_affected_module" type="choice">
+        <element choice="1" label="Affected module" mandatory="true" max_length="40" name="u_affected_module" type="choice">
             <choice>
                 <element label="Case Exchange" sequence="100" value="case_exchange"/>
                 <element label="Change" sequence="200" value="change"/>
