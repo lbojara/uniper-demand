@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Create a Demand related to Project</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Project Demand</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Demand Interceptor" name="Demand Interceptor">0ac21329dbbf2b003d67ff361d961952</question>
+        <roles>x_mscdx_demand.demand_requester</roles>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-23 11:48:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a4c31729dbbf2b003d67ff361d9619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project Demand</sys_name>
+        <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
+        <sys_update_name>sys_wizard_answer_a4c31729dbbf2b003d67ff361d9619ad</sys_update_name>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-23 11:48:14</sys_updated_on>
+        <table/>
+        <target_url>https://uniperdev.service-now.com/x_mscdx_demand_demand.do?sysparm_view=create_new_project&amp;sysparm_template=project_related</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

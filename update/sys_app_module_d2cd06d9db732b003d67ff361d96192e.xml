@@ -10,14 +10,14 @@
         <hint>Create new demand record</hint>
         <homepage/>
         <image/>
-        <link_type>DIRECT</link_type>
+        <link_type>NEW</link_type>
         <map_page/>
         <mobile_title>Create New</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name/>
+        <name>x_mscdx_demand_demand</name>
         <order>100</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>x_mscdx_demand_demand.do?&amp;sysparm_view=create_new</query>
+        <query>x_mscdx_demand_demand.do</query>
         <report/>
         <roles>x_mscdx_demand.demand_requester</roles>
         <survey/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d2cd06d9db732b003d67ff361d96192e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Create New</sys_name>
         <sys_overrides/>
         <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
         <sys_update_name>sys_app_module_d2cd06d9db732b003d67ff361d96192e</sys_update_name>
         <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-02-22 12:13:52</sys_updated_on>
+        <sys_updated_on>2019-02-23 11:51:27</sys_updated_on>
         <timeline_page/>
         <title>Create New</title>
         <uncancelable>false</uncancelable>

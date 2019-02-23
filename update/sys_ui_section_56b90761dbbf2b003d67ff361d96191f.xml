@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="56b90761dbbf2b003d67ff361d96191f" sys_domain="global" table="x_mscdx_demand_legacy_demands_stage" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>92b90761dbbf2b003d67ff361d961924</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_number</element>
+            <position>1</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>1ab90761dbbf2b003d67ff361d961924</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>9ab90761dbbf2b003d67ff361d961924</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_affected_module</element>
+            <position>3</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>1eb90761dbbf2b003d67ff361d961924</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>9eb90761dbbf2b003d67ff361d961924</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_business_justification</element>
+            <position>5</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>12b90761dbbf2b003d67ff361d961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comments_and_work_notes</element>
+            <position>6</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>92b90761dbbf2b003d67ff361d961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>7</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>16b90761dbbf2b003d67ff361d961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_created_by</element>
+            <position>8</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>96b90761dbbf2b003d67ff361d961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>1ab90761dbbf2b003d67ff361d961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_demand_type</element>
+            <position>10</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>9ab90761dbbf2b003d67ff361d961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>1eb90761dbbf2b003d67ff361d961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_description</element>
+            <position>12</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>9eb90761dbbf2b003d67ff361d961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_draft_solution_design</element>
+            <position>13</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>12b90761dbbf2b003d67ff361d961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>14</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>92b90761dbbf2b003d67ff361d961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_priority</element>
+            <position>15</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>16b90761dbbf2b003d67ff361d961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_requested_for</element>
+            <position>16</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>96b90761dbbf2b003d67ff361d961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>17</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>1ab90761dbbf2b003d67ff361d961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_risk_if_not_implemented</element>
+            <position>18</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>9ab90761dbbf2b003d67ff361d961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>19</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>1eb90761dbbf2b003d67ff361d961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_short_description</element>
+            <position>20</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>9eb90761dbbf2b003d67ff361d961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>21</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>12b90761dbbf2b003d67ff361d961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_solution_complexity</element>
+            <position>22</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>92b90761dbbf2b003d67ff361d961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_source_type</element>
+            <position>23</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>16b90761dbbf2b003d67ff361d961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>24</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>96b90761dbbf2b003d67ff361d961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_status</element>
+            <position>25</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>1ab90761dbbf2b003d67ff361d961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>26</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>9ab90761dbbf2b003d67ff361d961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_notes</element>
+            <position>27</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>1eb90761dbbf2b003d67ff361d961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>28</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>9eb90761dbbf2b003d67ff361d961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_notes_list</element>
+            <position>29</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>12b90761dbbf2b003d67ff361d961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_approver</element>
+            <position>30</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>92b90761dbbf2b003d67ff361d961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>31</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>92b94f61dbbf2b003d67ff361d961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_effort</element>
+            <position>32</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>16b94f61dbbf2b003d67ff361d961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>33</position>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_id>96b94f61dbbf2b003d67ff361d961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mscdx_demand_legacy_demands_stage" sys_domain="global" view="Default view">56b90761dbbf2b003d67ff361d96191f</sys_ui_section>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_mscdx_demand_legacy_demands_stage</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:03:50</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56b90761dbbf2b003d67ff361d96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_mscdx_demand_legacy_demands_stage</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
+            <sys_update_name>sys_ui_section_56b90761dbbf2b003d67ff361d96191f</sys_update_name>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:03:50</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -14,7 +14,7 @@
         <label>Demand</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_mscdx_demand_demand</name>
-        <number_ref display_value="DMA">e251d47fdb6be700144cfbc61d961966</number_ref>
+        <number_ref display_value="DEM">e251d47fdb6be700144cfbc61d961966</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <super_class display_value="Task" name="task">6800d0b7db2332002429384c7c9619db</super_class>

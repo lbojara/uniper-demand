@@ -6,6 +6,63 @@
             <element>u_estimated_development</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Less then 1 day</label>
+            <language>en</language>
+            <name>x_mscdx_demand_demand</name>
+            <sequence>0</sequence>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:11:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e8b83e1dbbf2b003d67ff361d961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:11:46</sys_updated_on>
+            <value>Less then 1 day</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_estimated_development</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Less then 2 hours</label>
+            <language>en</language>
+            <name>x_mscdx_demand_demand</name>
+            <sequence>0</sequence>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:11:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aa8b83e1dbbf2b003d67ff361d961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:11:46</sys_updated_on>
+            <value>Less then 2 hours</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_estimated_development</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>More then 10 days</label>
+            <language>en</language>
+            <name>x_mscdx_demand_demand</name>
+            <sequence>0</sequence>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 11:34:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00d0dba5dbbf2b003d67ff361d961917</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 11:34:48</sys_updated_on>
+            <value>More then 10 days</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_estimated_development</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Less than 2 hours</label>
             <language>en</language>
             <name>x_mscdx_demand_demand</name>

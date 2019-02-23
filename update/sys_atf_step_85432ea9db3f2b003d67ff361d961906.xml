@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Impersonate the user: Christian Florian Rügge with user Id: C17471</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <order>4</order>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-23 08:16:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>85432ea9db3f2b003d67ff361d961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
+        <sys_update_name>sys_atf_step_85432ea9db3f2b003d67ff361d961906</sys_update_name>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-23 08:16:05</sys_updated_on>
+        <table/>
+        <test display_value="Demand Lifecycle Test">59df9e2ddbfb2b003d67ff361d9619b4</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=85432ea9db3f2b003d67ff361d961906"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>85432ea9db3f2b003d67ff361d961906</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-23 08:16:05</sys_created_on>
+        <sys_id>c9532269db3f2b003d67ff361d9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-23 08:16:05</sys_updated_on>
+        <value>779915fadb9a1f00467ffbc61d96194c</value>
+        <variable display_value="">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+</record_update>

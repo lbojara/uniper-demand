@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_affected_module" label="Affected module" language="en" table="x_mscdx_demand_legacy_demands_stage">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_affected_module</element>
+            <help/>
+            <hint/>
+            <label>Affected module</label>
+            <language>en</language>
+            <name>x_mscdx_demand_legacy_demands_stage</name>
+            <plural>Affected modules</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 10:55:15</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e8c7cb21dbbf2b003d67ff361d96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Affected module</sys_name>
+            <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
+            <sys_update_name>sys_documentation_x_mscdx_demand_legacy_demands_stage_u_affected_module_en</sys_update_name>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 10:55:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

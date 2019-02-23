@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="legacy_demands_stage" max_length="40" name="x_mscdx_demand_legacy_demands_stage" type="collection">
+        <element attributes="import_attribute_name=Affected module,edge_encryption_enabled=true" label="Affected module" max_length="40" name="u_affected_module" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Approver" max_length="40" name="u_approver" type="string"/>
+        <element attributes="import_attribute_name=Business Justification,edge_encryption_enabled=true" label="Business Justification" max_length="370" name="u_business_justification" type="string"/>
+        <element attributes="import_attribute_name=Comments and Work notes,edge_encryption_enabled=true" label="Comments and Work notes" max_length="870" name="u_comments_and_work_notes" type="string"/>
+        <element attributes="import_attribute_name=Created by,edge_encryption_enabled=true" label="Created by" max_length="40" name="u_created_by" type="string"/>
+        <element attributes="import_attribute_name=Demand type,edge_encryption_enabled=true" label="Demand type" max_length="40" name="u_demand_type" type="string"/>
+        <element attributes="import_attribute_name=Description,edge_encryption_enabled=true" label="Description" max_length="648" name="u_description" type="string"/>
+        <element attributes="import_attribute_name=Draft solution design,edge_encryption_enabled=true" label="Draft solution design" max_length="718" name="u_draft_solution_design" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Effort" max_length="40" name="u_effort" type="string"/>
+        <element attributes="import_attribute_name=Number,edge_encryption_enabled=true" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="import_attribute_name=Priority,edge_encryption_enabled=true" label="Priority" max_length="40" name="u_priority" type="string"/>
+        <element attributes="import_attribute_name=Requested for,edge_encryption_enabled=true" label="Requested for" max_length="40" name="u_requested_for" type="string"/>
+        <element attributes="import_attribute_name=Risk if not implemented,edge_encryption_enabled=true" label="Risk if not implemented" max_length="40" name="u_risk_if_not_implemented" type="string"/>
+        <element attributes="import_attribute_name=Short description,edge_encryption_enabled=true" label="Short description" max_length="111" name="u_short_description" type="string"/>
+        <element attributes="import_attribute_name=Solution complexity,edge_encryption_enabled=true" label="Solution complexity" max_length="40" name="u_solution_complexity" type="string"/>
+        <element attributes="import_attribute_name=Source type,edge_encryption_enabled=true" label="Source type" max_length="40" name="u_source_type" type="string"/>
+        <element attributes="import_attribute_name=Status,edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=Work notes,edge_encryption_enabled=true" label="Work notes" max_length="870" name="u_work_notes" type="string"/>
+        <element attributes="import_attribute_name=Work notes list,edge_encryption_enabled=true" label="Work notes list" max_length="40" name="u_work_notes_list" type="string"/>
+    </element>
+</database>

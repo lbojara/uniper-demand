@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_risk_if_not_implemented" label="Risk if not implemented" language="en" table="x_mscdx_demand_legacy_demands_stage">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_risk_if_not_implemented</element>
+            <help/>
+            <hint/>
+            <label>Risk if not implemented</label>
+            <language>en</language>
+            <name>x_mscdx_demand_legacy_demands_stage</name>
+            <plural>Risk if not implemented</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>L18954</sys_created_by>
+            <sys_created_on>2019-02-23 10:55:15</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>24c7cb21dbbf2b003d67ff361d961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Risk if not implemented</sys_name>
+            <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
+            <sys_update_name>sys_documentation_x_mscdx_demand_legacy_demands_stage_u_risk_if_not_implemented_en</sys_update_name>
+            <sys_updated_by>L18954</sys_updated_by>
+            <sys_updated_on>2019-02-23 10:55:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
