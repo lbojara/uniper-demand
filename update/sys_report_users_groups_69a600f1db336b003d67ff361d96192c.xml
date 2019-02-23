@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Active Demand">e1a600f1db336b003d67ff361d96192c</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-23 15:30:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>69a600f1db336b003d67ff361d96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e1a600f1db336b003d67ff361d96192c</sys_name>
+        <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
+        <sys_update_name>sys_report_users_groups_69a600f1db336b003d67ff361d96192c</sys_update_name>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-23 15:30:01</sys_updated_on>
+        <user_id display_value="Lukasz Bojara">0b13b005dbee13404762f7871d9619d1</user_id>
+    </sys_report_users_groups>
+</record_update>

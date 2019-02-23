@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description>layout_3_3_Demand</description>
+        <media_type/>
+        <name>layout_3_3_Demand</name>
+        <scoped_name>x_mscdx_demand_layout_3_3_Demand</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-23 15:53:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f6cb80f5db336b003d67ff361d9619d9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>layout_3_3_Demand</sys_name>
+        <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
+        <sys_update_name>sys_ui_macro_f6cb80f5db336b003d67ff361d9619d9</sys_update_name>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-23 16:08:14</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<table border="0" cellspacing="6" id="${jvar_name}" role="presentation" width="100%">
+		<tr>
+			<td id="dropzone1" dropzone="true" valign="top" width="33%"/>
+			<td id="dropzone2" dropzone="true" valign="top" width="33%"/>
+			<td id="dropzone3" dropzone="true" valign="top" width="33%"/>
+		</tr>
+	<tr>
+			<td id="dropzone4" dropzone="true" valign="top" width="33%"/>
+			<td id="dropzone5" dropzone="true" valign="top" width="33%"/>
+			<td id="dropzone6" dropzone="true" valign="top" width="33%"/>
+		</tr>
+	<tr>
+			<td id="dropzone7" dropzone="true" valign="top" width="33%"/>
+			<td id="dropzone8" dropzone="true" valign="top" width="33%"/>
+			<td id="dropzone9" dropzone="true" valign="top" width="33%"/>
+		</tr>
+	</table>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>
