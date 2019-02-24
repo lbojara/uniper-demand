@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element audit="true" extends="task" label="Demand" max_length="40" name="x_mscdx_demand_demand" sizeclass="47" type="collection">
-        <element choice="1" label="Demand type" max_length="40" name="demand_type" type="choice">
+        <element choice="1" label="Demand type" mandatory="true" max_length="40" name="demand_type" type="choice">
             <choice>
-                <element label="New functionality" sequence="0" value="New functionality"/>
                 <element label="New funcionality" sequence="100" value="new"/>
                 <element label="Enhancement" sequence="200" value="enhancement"/>
                 <element label="Correction" sequence="300" value="correction"/>
@@ -35,9 +34,6 @@
         </element>
         <element choice="1" label="Estimated development" max_length="40" name="u_estimated_development" type="choice">
             <choice>
-                <element label="Less then 1 day" sequence="0" value="Less then 1 day"/>
-                <element label="Less then 2 hours" sequence="0" value="Less then 2 hours"/>
-                <element label="More then 10 days" sequence="0" value="More then 10 days"/>
                 <element label="Less than 2 hours" sequence="100" value="xs"/>
                 <element label="Less than 1 day" sequence="200" value="s"/>
                 <element label="1 - 2 days" sequence="300" value="m"/>
@@ -58,7 +54,7 @@
         <element label="Project manager" max_length="32" name="u_project_manager" reference="sys_user" type="reference"/>
         <element label="Project name" max_length="100" name="u_project_name" type="string"/>
         <element label="Project related" max_length="40" name="u_project_related" type="boolean"/>
-        <element label="Requested for" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element label="Draft solution design" max_length="4000" name="u_solution_design" type="string"/>
         <element default="new" label="Stage" max_length="80" name="u_stage" type="workflow"/>
     </element>

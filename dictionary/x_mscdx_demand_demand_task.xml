@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element audit="true" extends="task" label="Demand Task" max_length="40" name="x_mscdx_demand_demand_task" sizeclass="26" type="collection">
+        <element choice="1" label="Complexity" max_length="40" name="u_complexity" type="choice">
+            <choice>
+                <element label="Low" sequence="100" value="low"/>
+                <element label="Medium" sequence="200" value="medium"/>
+                <element label="High" sequence="300" value="high"/>
+            </choice>
+        </element>
         <element choice="1" label="Demand task type" max_length="40" name="u_demand_task_type" type="choice">
             <choice>
                 <element label="Solution" sequence="100" value="solution"/>
                 <element label="Development" sequence="200" value="development"/>
                 <element label="Test" sequence="300" value="test"/>
+            </choice>
+        </element>
+        <element choice="1" label="Estimated development" max_length="40" name="u_estimated_development" type="choice">
+            <choice>
+                <element label="Less than 2 hours" sequence="100" value="xs"/>
+                <element label="Less Than 1 day" sequence="200" value="s"/>
+                <element label="1 - 2 days" sequence="300" value="m"/>
+                <element label="3 - 5 days" sequence="400" value="l"/>
+                <element label="6 - 10 days" sequence="500" value="xl"/>
+                <element label="More than 10 days" sequence="600" value="xxl"/>
             </choice>
         </element>
     </element>

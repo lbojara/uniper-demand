@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="u_estimated_development" table="x_mscdx_demand_demand" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="u_estimated_development" table="x_mscdx_demand_demand_task" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_estimated_development</element>
@@ -8,16 +8,16 @@
             <inactive>false</inactive>
             <label>Less than 2 hours</label>
             <language>en</language>
-            <name>x_mscdx_demand_demand</name>
+            <name>x_mscdx_demand_demand_task</name>
             <sequence>100</sequence>
             <sys_created_by>L18954</sys_created_by>
-            <sys_created_on>2019-02-19 12:18:16</sys_created_on>
+            <sys_created_on>2019-02-24 09:49:04</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8654f6d8dbfb6b00144cfbc61d9619b8</sys_id>
+            <sys_id>f3f10c02dbbb6b003d67ff361d961920</sys_id>
             <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>L18954</sys_updated_by>
-            <sys_updated_on>2019-02-19 12:19:02</sys_updated_on>
+            <sys_updated_on>2019-02-24 09:50:22</sys_updated_on>
             <value>xs</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -25,18 +25,18 @@
             <element>u_estimated_development</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Less than 1 day</label>
+            <label>Less Than 1 day</label>
             <language>en</language>
-            <name>x_mscdx_demand_demand</name>
+            <name>x_mscdx_demand_demand_task</name>
             <sequence>200</sequence>
             <sys_created_by>L18954</sys_created_by>
-            <sys_created_on>2019-02-19 12:18:33</sys_created_on>
+            <sys_created_on>2019-02-24 09:49:29</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>656476d8dbfb6b00144cfbc61d961929</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_id>b4320842dbbb6b003d67ff361d961956</sys_id>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>L18954</sys_updated_by>
-            <sys_updated_on>2019-02-19 12:19:30</sys_updated_on>
+            <sys_updated_on>2019-02-24 09:50:24</sys_updated_on>
             <value>s</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -46,16 +46,16 @@
             <inactive>false</inactive>
             <label>1 - 2 days</label>
             <language>en</language>
-            <name>x_mscdx_demand_demand</name>
+            <name>x_mscdx_demand_demand_task</name>
             <sequence>300</sequence>
             <sys_created_by>L18954</sys_created_by>
-            <sys_created_on>2019-02-19 12:19:25</sys_created_on>
+            <sys_created_on>2019-02-24 09:49:35</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f174b6d8dbfb6b00144cfbc61d9619c3</sys_id>
+            <sys_id>cf420842dbbb6b003d67ff361d961956</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>L18954</sys_updated_by>
-            <sys_updated_on>2019-02-19 12:19:37</sys_updated_on>
+            <sys_updated_on>2019-02-24 09:50:27</sys_updated_on>
             <value>m</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -65,16 +65,16 @@
             <inactive>false</inactive>
             <label>3 - 5 days</label>
             <language>en</language>
-            <name>x_mscdx_demand_demand</name>
+            <name>x_mscdx_demand_demand_task</name>
             <sequence>400</sequence>
             <sys_created_by>L18954</sys_created_by>
-            <sys_created_on>2019-02-19 12:19:44</sys_created_on>
+            <sys_created_on>2019-02-24 09:49:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>1ea4f2d8dbfb6b00144cfbc61d961974</sys_id>
+            <sys_id>a452cc02dbbb6b003d67ff361d961926</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>L18954</sys_updated_by>
-            <sys_updated_on>2019-02-19 12:19:57</sys_updated_on>
+            <sys_updated_on>2019-02-24 09:50:29</sys_updated_on>
             <value>l</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -84,16 +84,16 @@
             <inactive>false</inactive>
             <label>6 - 10 days</label>
             <language>en</language>
-            <name>x_mscdx_demand_demand</name>
+            <name>x_mscdx_demand_demand_task</name>
             <sequence>500</sequence>
             <sys_created_by>L18954</sys_created_by>
-            <sys_created_on>2019-02-19 12:20:04</sys_created_on>
+            <sys_created_on>2019-02-24 09:49:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4bb4fad8dbfb6b00144cfbc61d961968</sys_id>
+            <sys_id>93524082dbbb6b003d67ff361d961979</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>L18954</sys_updated_by>
-            <sys_updated_on>2019-02-19 12:20:10</sys_updated_on>
+            <sys_updated_on>2019-02-24 09:50:31</sys_updated_on>
             <value>xl</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -103,35 +103,35 @@
             <inactive>false</inactive>
             <label>More than 10 days</label>
             <language>en</language>
-            <name>x_mscdx_demand_demand</name>
+            <name>x_mscdx_demand_demand_task</name>
             <sequence>600</sequence>
             <sys_created_by>L18954</sys_created_by>
-            <sys_created_on>2019-02-19 12:20:17</sys_created_on>
+            <sys_created_on>2019-02-24 09:50:00</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>04d4b2d8dbfb6b00144cfbc61d9619b0</sys_id>
+            <sys_id>01620c02dbbb6b003d67ff361d961923</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>L18954</sys_updated_by>
-            <sys_updated_on>2019-02-19 12:20:24</sys_updated_on>
+            <sys_updated_on>2019-02-24 09:50:34</sys_updated_on>
             <value>xxl</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>u_estimated_development</element>
-            <name>x_mscdx_demand_demand</name>
+            <name>x_mscdx_demand_demand_task</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>L18954</sys_created_by>
-            <sys_created_on>2019-02-19 12:18:16</sys_created_on>
+            <sys_created_on>2019-02-24 09:49:04</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>2d64b6d8dbfb6b00144cfbc61d961907</sys_id>
+            <sys_id>7432cc42dbbb6b003d67ff361d96194d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_estimated_development</sys_name>
             <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
-            <sys_update_name>sys_choice_x_mscdx_demand_demand_u_estimated_development</sys_update_name>
+            <sys_update_name>sys_choice_x_mscdx_demand_demand_task_u_estimated_development</sys_update_name>
             <sys_updated_by>L18954</sys_updated_by>
-            <sys_updated_on>2019-02-19 12:18:16</sys_updated_on>
+            <sys_updated_on>2019-02-24 09:49:04</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

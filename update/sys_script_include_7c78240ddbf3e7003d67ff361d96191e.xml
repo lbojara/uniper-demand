@@ -9,7 +9,16 @@
         <name>demandUtils</name>
         <script><![CDATA[var demandUtils = Class.create();
 demandUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
-
+	
+	
+	/**
+	 *
+	 * Gets the approver for a given affected module
+	 *
+	 * @param {string} affectedModule - name of the affected module, must contain value from the dictionary
+	 * @return {JSON} a object containing both the value and displayValue of the approver
+	 *
+	**/
 	getModuleApprover: function(affectedModule){
 		var moduleName = this.getParameter('sysparm_affected_module') ? this.getParameter('sysparm_affected_module') : affectedModule;
 		var returnApprover = {};
@@ -29,23 +38,8 @@ demandUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		} else {
 			return;
 		}
-		//returnApprover.value = approver.getEncodedQuery();
-		///	return JSON.stringify(returnApprover);
-		
-		/*if (approver.hasNext()) {
-			returnApprover.value = approver.getValue('u_approver');
-			returnApprover.displayValue = approver.getDisplayValue('u_approver');
-			
-			return JSON.stringify(returnApprover);
-		} else {
-			
-			returnApprover.value = 'nic';
-			return JSON.stringify(returnApprover);
-		}*/
-		
-		
-		
 	},
+
 	
     type: 'demandUtils'
 });]]></script>
@@ -54,7 +48,7 @@ demandUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_on>2019-02-21 10:03:25</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>7c78240ddbf3e7003d67ff361d96191e</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>demandUtils</sys_name>
         <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
         <sys_policy/>
@@ -62,6 +56,6 @@ demandUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
         <sys_update_name>sys_script_include_7c78240ddbf3e7003d67ff361d96191e</sys_update_name>
         <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-02-21 11:04:18</sys_updated_on>
+        <sys_updated_on>2019-02-24 09:40:43</sys_updated_on>
     </sys_script_include>
 </record_update>

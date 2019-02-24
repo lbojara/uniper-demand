@@ -6,25 +6,6 @@
             <element>demand_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>New functionality</label>
-            <language>en</language>
-            <name>x_mscdx_demand_demand</name>
-            <sequence>0</sequence>
-            <sys_created_by>L18954</sys_created_by>
-            <sys_created_on>2019-02-23 10:56:45</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>a2188b21dbbf2b003d67ff361d961919</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>L18954</sys_updated_by>
-            <sys_updated_on>2019-02-23 10:56:45</sys_updated_on>
-            <value>New functionality</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>demand_type</element>
-            <hint/>
-            <inactive>false</inactive>
             <label>New funcionality</label>
             <language>en</language>
             <name>x_mscdx_demand_demand</name>
