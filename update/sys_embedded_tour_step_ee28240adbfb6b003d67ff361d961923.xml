@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref display_value="8fb72cc6dbfb6b003d67ff361d96194a.1.xpath">2e28600adbfb6b003d67ff361d9619d2</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[Select "Create normal Demand". Before you will click it, please click the Next button below.]]></content>
+        <guide display_value="How to create a normal Demand?">8fb72cc6dbfb6b003d67ff361d96194a</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name>Step 1</name>
+        <options/>
+        <order>1</order>
+        <placement>left</placement>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-24 12:34:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>ee28240adbfb6b003d67ff361d961923</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Step 1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_ee28240adbfb6b003d67ff361d961923</sys_update_name>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-24 12:47:38</sys_updated_on>
+        <target/>
+        <target_ref display_value="8fb72cc6dbfb6b003d67ff361d96194a.1.xpath">2e28600adbfb6b003d67ff361d9619d2</target_ref>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>wizard_view.do</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=ee28240adbfb6b003d67ff361d961923"/>
+</record_update>
