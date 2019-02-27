@@ -3,7 +3,7 @@
     <sys_script_fix action="INSERT_OR_UPDATE">
         <active>true</active>
         <before>false</before>
-        <description>Value new_functionality changed to new</description>
+        <description>Value new_functionality changed to new. During the import the value of New functionality may be wrong. This script will fix the issue.</description>
         <flush_cache>false</flush_cache>
         <name>(FRU) Correct Demand Type after import</name>
         <run_once>true</run_once>
@@ -20,7 +20,7 @@ while (demand.next()) {
         <sys_created_on>2019-02-24 10:10:00</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>21560c46dbbb6b003d67ff361d961979</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>(FRU) Correct Demand Type after import</sys_name>
         <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
         <sys_policy/>
@@ -28,7 +28,7 @@ while (demand.next()) {
         <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
         <sys_update_name>sys_script_fix_21560c46dbbb6b003d67ff361d961979</sys_update_name>
         <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-02-24 10:11:19</sys_updated_on>
+        <sys_updated_on>2019-02-27 13:19:43</sys_updated_on>
         <unloadable>false</unloadable>
     </sys_script_fix>
 </record_update>

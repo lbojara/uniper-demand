@@ -40,6 +40,14 @@ demandUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		}
 	},
 	
+	/**
+	 *
+	 * Gets project data from the configoration table.
+	 *
+	 * @param {string} projectNumber - sys_id of the project record
+	 * @return {JSON} a object containing projectName, projectManager and display value of the Project Manager
+	 *
+	**/
 	getProjectData: function(projectNumber) {
 		var projectId = this.getParameter('sysparm_projectNumber') ? this.getParameter('sysparm_projectNumber') : projectNumber;
 		
@@ -62,7 +70,22 @@ demandUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 			return;
 		}
 	},
+	
+	
+	/**
+	 *
+	 * Search for all Demands where parent state is Closed Completed and change state to Completed.
+	 *
+	**/
+	closeCompletedDemands: function() {
+		var demandRecord = new GlideRecord('x_mscdx_demand_demand');
+		demandRecord.addEncodedQuery('u_stage=deployment^parentISNOTEMPTY^parent.state=3^state!=3');
+		demandRecord.query();
 
+		demandRecord.setValue('state',3);
+		demandRecord.updateMultiple();
+
+	},
 	
     type: 'demandUtils'
 });]]></script>
@@ -71,7 +94,7 @@ demandUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_on>2019-02-21 10:03:25</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>7c78240ddbf3e7003d67ff361d96191e</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>demandUtils</sys_name>
         <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
         <sys_policy/>
@@ -79,6 +102,6 @@ demandUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
         <sys_update_name>sys_script_include_7c78240ddbf3e7003d67ff361d96191e</sys_update_name>
         <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-02-26 16:27:57</sys_updated_on>
+        <sys_updated_on>2019-02-27 13:19:05</sys_updated_on>
     </sys_script_include>
 </record_update>
