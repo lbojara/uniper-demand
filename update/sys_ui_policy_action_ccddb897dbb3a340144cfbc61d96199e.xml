@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>u_complexity</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-28 11:22:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ccddb897dbb3a340144cfbc61d96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_complexity</sys_name>
+        <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
+        <sys_update_name>sys_ui_policy_action_ccddb897dbb3a340144cfbc61d96199e</sys_update_name>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-28 11:22:05</sys_updated_on>
+        <table>x_mscdx_demand_demand_task</table>
+        <ui_policy display_value="(FRU) If type Tests than developemnt fields readonly">a95d3497dbb3a340144cfbc61d9619e7</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>
