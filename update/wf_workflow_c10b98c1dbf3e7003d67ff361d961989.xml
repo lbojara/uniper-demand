@@ -34,12 +34,12 @@
         <sys_created_by>L18954</sys_created_by>
         <sys_created_on>2019-02-28 11:16:35</sys_created_on>
         <sys_id>b99c3057dbb3a340144cfbc61d961972</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-02-28 11:29:23</sys_updated_on>
+        <sys_updated_on>2019-02-28 14:38:33</sys_updated_on>
         <table>x_mscdx_demand_demand</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="(FRU) Demand Lifecycle">c10b98c1dbf3e7003d67ff361d961989</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
