@@ -87,6 +87,40 @@ demandUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
 	},
 	
+	/**
+	 *
+	 * Validates project number against comany policy and settings.
+	 *
+	 * @param {string} projectNumber - sys_id of the project record
+	 * @return {JSON} a object containing positive validation
+	 *
+	**/
+	validateProjectId: function(projectNumber){
+		var projectId = this.getParameter('sysparm_projectNumber') ? this.getParameter('sysparm_projectNumber') : projectNumber;
+		var prefix = gs.getProperty('x_mscdx_demand.project.prefix');
+		var min = parseInt(gs.getProperty('x_mscdx_demand.project.minimum.id.length'));
+		var max = parseInt(gs.getProperty('x_mscdx_demand.project.maximum.id.length'));
+		var pattern = prefix + '[0-9]{' + (min-1) + ',' + (max-1) +'}';
+		
+		if (projectId.length >= min && projectId.length <= max){
+			
+			if (projectId.match(pattern)){
+				
+				var response = {};
+				response.match = true;
+				
+				return JSON.stringify(response);
+				
+			} else {
+				return;
+			}
+			
+		} else {
+			return;
+		}
+		
+	},
+	
     type: 'demandUtils'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
@@ -94,7 +128,7 @@ demandUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_on>2019-02-21 10:03:25</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>7c78240ddbf3e7003d67ff361d96191e</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>demandUtils</sys_name>
         <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
         <sys_policy/>
@@ -102,6 +136,6 @@ demandUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
         <sys_update_name>sys_script_include_7c78240ddbf3e7003d67ff361d96191e</sys_update_name>
         <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-02-27 13:19:05</sys_updated_on>
+        <sys_updated_on>2019-03-02 14:43:30</sys_updated_on>
     </sys_script_include>
 </record_update>

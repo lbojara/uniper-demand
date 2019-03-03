@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Projects" max_length="40" name="x_mscdx_demand_projects" type="collection">
-        <element display="true" label="Project id" max_length="255" name="u_project_id" type="string" unique="true"/>
-        <element label="Project manager" max_length="32" name="u_project_manager" reference="sys_user" type="reference"/>
-        <element label="Project name" max_length="255" name="u_project_name" type="string" unique="true"/>
+        <element label="Project id" mandatory="true" max_length="255" name="u_project_id" type="string" unique="true"/>
+        <element label="Project manager" mandatory="true" max_length="32" name="u_project_manager" reference="sys_user" type="reference"/>
+        <element display="true" label="Project name" mandatory="true" max_length="255" name="u_project_name" type="string" unique="true"/>
         <index name="index">
             <element name="u_project_name"/>
         </index>

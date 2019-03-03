@@ -4,54 +4,66 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description>Set the approver filed to the appropriate approver if affected module is set or changed</description>
-        <field>u_affected_module</field>
+        <description>Project numbers have a specific format. Project number always starts from P and is followed by 5 to 6 digits e.g.&#13;
+&#13;
+P123456&#13;
+&#13;
+Prefix letter, minimum number of characters and maximum number of characters can be set in application properties by admin.</description>
+        <field>u_project_id</field>
         <global>true</global>
         <messages/>
-        <name>(FRU)  Get approver for module</name>
+        <name>(FRU) Validate Project Number</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
    try {
       if(isLoading || newValue == '') {
          return;
       }
-	  
+	   
 	   var ga = new GlideAjax('x_mscdx_demand.demandUtils');
-	   ga.addParam('sysparm_name','getModuleApprover');
-	   ga.addParam('sysparm_affected_module',newValue);
+	   ga.addParam('sysparm_name','validateProjectId');
+	   ga.addParam('sysparm_projectNumber',newValue);
 	   
 	   ga.getXML( function(response){
 		   var answer = JSON.parse(response.responseXML.documentElement.getAttribute("answer"));
-		 
-		   if (answer) {
-			   g_form.setValue('u_approver',answer.value,answer.displayValue);
+		  
+		   if (!answer) {
+			   var prefix = g_scratchpad.projectPrefix;
+			   var min = g_scratchpad.minimumDigits;
+			   var max = g_scratchpad.maximumDigits;
+			   
+			   g_form.clearValue('u_project_id');
+			   g_form.showFieldMsg('u_project_id','Please ensure that Project id matches company policy for project numbers.','error',false);
+			   g_form.addInfoMessage('Project id must start with ' + prefix + ' followed by ' + min + ' up to ' + max + ' digits.');
+			   
 		   }
 	   });
 	   
+		
 
    } catch(exception) {
       // Specify the name of the Client Script in the log message
-      jslog('Error in Client Script (FRU)  Get approver for module: ' + exception);
+      jslog('Error in Client Script <script_name>: ' + exception);
    }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>L18954</sys_created_by>
-        <sys_created_on>2019-02-21 10:23:38</sys_created_on>
+        <sys_created_on>2019-03-02 10:10:44</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>32eb6c4ddbf3e7003d67ff361d961969</sys_id>
-        <sys_mod_count>18</sys_mod_count>
-        <sys_name>(FRU)  Get approver for module</sys_name>
+        <sys_id>f7cb76b7db7fe340144cfbc61d9619ae</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>(FRU) Validate Project Number</sys_name>
         <sys_overrides/>
         <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
-        <sys_update_name>sys_script_client_32eb6c4ddbf3e7003d67ff361d961969</sys_update_name>
+        <sys_update_name>sys_script_client_f7cb76b7db7fe340144cfbc61d9619ae</sys_update_name>
         <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-03-03 14:36:53</sys_updated_on>
-        <table>x_mscdx_demand_demand</table>
+        <sys_updated_on>2019-03-03 14:33:04</sys_updated_on>
+        <table>x_mscdx_demand_projects</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
         <view/>
