@@ -25,33 +25,4 @@
         <sys_updated_on>2019-02-19 20:15:10</sys_updated_on>
         <ui_id>6cab4536-811c-48e4-89e7-3c950ad9575a</ui_id>
     </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=5b8124ecdbff6b00144cfbc61d96196e"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>5b8124ecdbff6b00144cfbc61d96196e</document_key>
-        <order>20</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>L18954</sys_created_by>
-        <sys_created_on>2019-02-19 20:15:10</sys_created_on>
-        <sys_id>1f8124ecdbff6b00144cfbc61d961970</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-02-19 20:15:10</sys_updated_on>
-        <value>{{Created_1.current.approval}}=approved</value>
-        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>5b8124ecdbff6b00144cfbc61d96196e</document_key>
-        <order>10</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>L18954</sys_created_by>
-        <sys_created_on>2019-02-19 20:15:10</sys_created_on>
-        <sys_id>df8124ecdbff6b00144cfbc61d961970</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-02-19 20:15:10</sys_updated_on>
-        <value>Check if pre-approval was granted.</value>
-        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
-    </sys_variable_value>
 </record_update>

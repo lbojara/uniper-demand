@@ -24,33 +24,4 @@
         <trigger_outputs/>
         <trigger_type>record_create</trigger_type>
     </sys_hub_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=43c580acdbbf6b00144cfbc61d96195b"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>43c580acdbbf6b00144cfbc61d96195b</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>L18954</sys_created_by>
-        <sys_created_on>2019-02-19 18:13:54</sys_created_on>
-        <sys_id>0bc580acdbbf6b00144cfbc61d96195d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-02-19 18:13:54</sys_updated_on>
-        <value>^EQ</value>
-        <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>43c580acdbbf6b00144cfbc61d96195b</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>L18954</sys_created_by>
-        <sys_created_on>2019-02-19 18:13:54</sys_created_on>
-        <sys_id>cbc580acdbbf6b00144cfbc61d96195d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-02-19 18:13:54</sys_updated_on>
-        <value>x_mscdx_demand_demand</value>
-        <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
-    </sys_variable_value>
 </record_update>

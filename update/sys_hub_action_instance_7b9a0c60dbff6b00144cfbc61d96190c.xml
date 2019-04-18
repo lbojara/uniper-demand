@@ -2,7 +2,6 @@
 <record_update table="sys_hub_action_instance">
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <comment/>
         <compiled_snapshot display_value="Create Record">2de05916c31332002841b63b12d3aee1</compiled_snapshot>
@@ -26,44 +25,4 @@
         <sys_updated_on>2019-02-19 18:34:59</sys_updated_on>
         <ui_id>5b1353b9-fa31-4172-a034-9d5b7781ccf4</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=7b9a0c60dbff6b00144cfbc61d96190c"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>7b9a0c60dbff6b00144cfbc61d96190c</document_key>
-        <order>0</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>L18954</sys_created_by>
-        <sys_created_on>2019-02-19 18:34:59</sys_created_on>
-        <sys_id>b79a0c60dbff6b00144cfbc61d96190f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-02-19 18:34:59</sys_updated_on>
-        <value>x_mscdx_demand_demand_task</value>
-        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=7b9a0c60dbff6b00144cfbc61d96190c"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>7b9a0c60dbff6b00144cfbc61d96190c</id>
-        <sys_created_by>L18954</sys_created_by>
-        <sys_created_on>2019-02-19 18:34:59</sys_created_on>
-        <sys_id>739a0c60dbff6b00144cfbc61d96190f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-02-19 18:34:59</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>7b9a0c60dbff6b00144cfbc61d96190c</id>
-        <sys_created_by>L18954</sys_created_by>
-        <sys_created_on>2019-02-19 18:34:59</sys_created_on>
-        <sys_id>379a0c60dbff6b00144cfbc61d96190f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-02-19 18:34:59</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>u_short_description=Start development process of demand {{Created_1.current.number}} based on its solution design.^u_state=open^u_darft_solution_design={{Created_1.current.u_solution_design}}</value>
-    </sys_element_mapping>
 </record_update>

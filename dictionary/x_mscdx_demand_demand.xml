@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Demand" max_length="40" name="x_mscdx_demand_demand" sizeclass="51" type="collection">
+    <element audit="true" extends="task" label="Demand" max_length="40" name="x_mscdx_demand_demand" sizeclass="67" type="collection">
         <element choice="1" label="Demand type" mandatory="true" max_length="40" name="demand_type" type="choice">
             <choice>
+                <element label="New functionality" sequence="0" value="New functionality"/>
                 <element label="New funcionality" sequence="100" value="new"/>
                 <element label="Enhancement" sequence="200" value="enhancement"/>
                 <element label="Correction" sequence="300" value="correction"/>
@@ -11,6 +12,7 @@
         </element>
         <element choice="1" label="Affected module" mandatory="true" max_length="40" name="u_affected_module" type="choice">
             <choice>
+                <element label="Knowledge" sequence="0" value="Knowledge"/>
                 <element label="Case Exchange" sequence="100" value="case_exchange"/>
                 <element label="Change" sequence="200" value="change"/>
                 <element label="CMDB" sequence="300" value="cmdb"/>
@@ -20,7 +22,9 @@
                 <element label="Request" sequence="700" value="request"/>
                 <element label="Request Catalog" sequence="800" value="request_catalog"/>
                 <element label="Service Portal" sequence="900" value="service_portal"/>
-                <element label="Other" sequence="1000" value="other"/>
+                <element label="EAM" sequence="1000" value="eam"/>
+                <element label="UPM-X/Designer" sequence="1100" value="upmx_designer"/>
+                <element label="Other" sequence="2000" value="other"/>
             </choice>
         </element>
         <element label="Approver" max_length="32" name="u_approver" reference="sys_user" type="reference"/>

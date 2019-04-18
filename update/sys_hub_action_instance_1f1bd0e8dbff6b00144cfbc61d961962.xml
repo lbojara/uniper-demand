@@ -2,7 +2,6 @@
 <record_update table="sys_hub_action_instance">
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <comment/>
         <compiled_snapshot display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
@@ -26,70 +25,4 @@
         <sys_updated_on>2019-02-19 19:47:03</sys_updated_on>
         <ui_id>04a37f83-05be-4f09-a485-83f4f86ae76b</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=1f1bd0e8dbff6b00144cfbc61d961962"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>1f1bd0e8dbff6b00144cfbc61d961962</document_key>
-        <order>50</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>L18954</sys_created_by>
-        <sys_created_on>2019-02-19 19:47:03</sys_created_on>
-        <sys_id>531bd0e8dbff6b00144cfbc61d961966</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-02-19 19:47:03</sys_updated_on>
-        <value>x_mscdx_demand_demand</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>1f1bd0e8dbff6b00144cfbc61d961962</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>L18954</sys_created_by>
-        <sys_created_on>2019-02-19 19:47:03</sys_created_on>
-        <sys_id>9f1bd0e8dbff6b00144cfbc61d961965</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-02-19 19:47:03</sys_updated_on>
-        <value>u_stage=completed^state=3^work_notes=All changes have been deployed on production.</value>
-        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=1f1bd0e8dbff6b00144cfbc61d961962"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>1f1bd0e8dbff6b00144cfbc61d961962</id>
-        <sys_created_by>L18954</sys_created_by>
-        <sys_created_on>2019-02-19 19:47:03</sys_created_on>
-        <sys_id>5b1bd0e8dbff6b00144cfbc61d961965</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-02-19 19:47:03</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>{{Created_1.current}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>1f1bd0e8dbff6b00144cfbc61d961962</id>
-        <sys_created_by>L18954</sys_created_by>
-        <sys_created_on>2019-02-19 19:47:03</sys_created_on>
-        <sys_id>971bd0e8dbff6b00144cfbc61d961965</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-02-19 19:47:03</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>1f1bd0e8dbff6b00144cfbc61d961962</id>
-        <sys_created_by>L18954</sys_created_by>
-        <sys_created_on>2019-02-19 19:47:03</sys_created_on>
-        <sys_id>1f1bd0e8dbff6b00144cfbc61d961965</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-02-19 19:47:03</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value/>
-    </sys_element_mapping>
 </record_update>

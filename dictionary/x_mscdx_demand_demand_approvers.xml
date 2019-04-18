@@ -15,7 +15,9 @@
                 <element label="Request" sequence="700" value="request"/>
                 <element label="Request Catalog" sequence="800" value="request_catalog"/>
                 <element label="Service Portal" sequence="900" value="service_portal"/>
-                <element label="Other" sequence="1000" value="other"/>
+                <element label="EAM" sequence="1000" value="eam"/>
+                <element label="UPM-X/Designer" sequence="1100" value="upmx_designer"/>
+                <element label="Other" sequence="2000" value="other"/>
             </choice>
         </element>
         <element label="Order" max_length="40" name="u_order" type="integer"/>
