@@ -237,15 +237,15 @@
             <label>Other</label>
             <language>en</language>
             <name>x_mscdx_demand_demand</name>
-            <sequence>2000</sequence>
+            <sequence>3000</sequence>
             <sys_created_by>L18954</sys_created_by>
             <sys_created_on>2019-02-18 11:57:21</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>e2f5edccdb3b2b00144cfbc61d9619ff</sys_id>
-            <sys_mod_count>5</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>L18954</sys_updated_by>
-            <sys_updated_on>2019-04-18 09:18:01</sys_updated_on>
+            <sys_updated_on>2019-04-18 09:35:55</sys_updated_on>
             <value>other</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">

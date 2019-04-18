@@ -24,7 +24,7 @@
                 <element label="Service Portal" sequence="900" value="service_portal"/>
                 <element label="EAM" sequence="1000" value="eam"/>
                 <element label="UPM-X/Designer" sequence="1100" value="upmx_designer"/>
-                <element label="Other" sequence="2000" value="other"/>
+                <element label="Other" sequence="3000" value="other"/>
             </choice>
         </element>
         <element label="Approver" max_length="32" name="u_approver" reference="sys_user" type="reference"/>
