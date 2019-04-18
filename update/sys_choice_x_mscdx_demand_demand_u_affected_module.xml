@@ -199,15 +199,15 @@
             <label>EAM</label>
             <language>en</language>
             <name>x_mscdx_demand_demand</name>
-            <sequence>1000</sequence>
+            <sequence>1200</sequence>
             <sys_created_by>L18954</sys_created_by>
             <sys_created_on>2019-04-18 09:18:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>1a47bc4bdbb07b00144cfbc61d96198a</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>L18954</sys_updated_by>
-            <sys_updated_on>2019-04-18 09:18:22</sys_updated_on>
+            <sys_updated_on>2019-04-18 09:42:53</sys_updated_on>
             <value>eam</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -218,15 +218,15 @@
             <label>UPM-X/Designer</label>
             <language>en</language>
             <name>x_mscdx_demand_demand</name>
-            <sequence>1100</sequence>
+            <sequence>1300</sequence>
             <sys_created_by>L18954</sys_created_by>
             <sys_created_on>2019-04-18 09:18:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>9e67f44bdbb07b00144cfbc61d961987</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>L18954</sys_updated_by>
-            <sys_updated_on>2019-04-18 09:18:47</sys_updated_on>
+            <sys_updated_on>2019-04-18 09:42:57</sys_updated_on>
             <value>upmx_designer</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -237,15 +237,15 @@
             <label>Other</label>
             <language>en</language>
             <name>x_mscdx_demand_demand</name>
-            <sequence>3000</sequence>
+            <sequence>2000</sequence>
             <sys_created_by>L18954</sys_created_by>
             <sys_created_on>2019-02-18 11:57:21</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>e2f5edccdb3b2b00144cfbc61d9619ff</sys_id>
-            <sys_mod_count>6</sys_mod_count>
+            <sys_mod_count>7</sys_mod_count>
             <sys_updated_by>L18954</sys_updated_by>
-            <sys_updated_on>2019-04-18 09:35:55</sys_updated_on>
+            <sys_updated_on>2019-04-18 09:42:44</sys_updated_on>
             <value>other</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
