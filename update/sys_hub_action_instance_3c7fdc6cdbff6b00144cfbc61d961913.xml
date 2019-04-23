@@ -2,6 +2,7 @@
 <record_update table="sys_hub_action_instance">
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <comment>Task for Solution Design creation.</comment>
         <compiled_snapshot display_value="Create Record">2de05916c31332002841b63b12d3aee1</compiled_snapshot>
@@ -25,4 +26,44 @@
         <sys_updated_on>2019-02-19 20:05:58</sys_updated_on>
         <ui_id>e0e816b9-7225-487a-bee3-ff72c30dd9a4</ui_id>
     </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3c7fdc6cdbff6b00144cfbc61d961913"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3c7fdc6cdbff6b00144cfbc61d961913</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-19 20:05:59</sys_created_on>
+        <sys_id>787fdc6cdbff6b00144cfbc61d961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-19 20:05:59</sys_updated_on>
+        <value>x_mscdx_demand_demand_task</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3c7fdc6cdbff6b00144cfbc61d961913"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3c7fdc6cdbff6b00144cfbc61d961913</id>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-19 20:05:59</sys_created_on>
+        <sys_id>347fdc6cdbff6b00144cfbc61d961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-19 20:05:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3c7fdc6cdbff6b00144cfbc61d961913</id>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-19 20:05:59</sys_created_on>
+        <sys_id>f47fdc6cdbff6b00144cfbc61d961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-19 20:05:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>u_short_description=Create solution design for {{Created_1.current.number}}^u_state=open</value>
+    </sys_element_mapping>
 </record_update>

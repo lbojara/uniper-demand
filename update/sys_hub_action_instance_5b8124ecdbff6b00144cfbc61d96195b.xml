@@ -2,6 +2,7 @@
 <record_update table="sys_hub_action_instance">
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Wait For Condition">d3f92c160b10030085c083eb37673a7f</action_type>
         <comment/>
         <compiled_snapshot display_value="Wait For Condition">d3f92c160b10030085c083eb37673a7f</compiled_snapshot>
@@ -25,4 +26,70 @@
         <sys_updated_on>2019-02-19 20:15:10</sys_updated_on>
         <ui_id>8a2dab56-bb7a-4945-bb0e-116775038c33</ui_id>
     </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5b8124ecdbff6b00144cfbc61d96195b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5b8124ecdbff6b00144cfbc61d96195b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-19 20:15:10</sys_created_on>
+        <sys_id>9f8124ecdbff6b00144cfbc61d96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-19 20:15:10</sys_updated_on>
+        <value>x_mscdx_demand_demand_task</value>
+        <variable display_value="">1ff92c160b10030085c083eb37673a81</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5b8124ecdbff6b00144cfbc61d96195b</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-19 20:15:10</sys_created_on>
+        <sys_id>db8124ecdbff6b00144cfbc61d96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-19 20:15:10</sys_updated_on>
+        <value>u_state=closed_complete</value>
+        <variable display_value="">5ff92c160b10030085c083eb37673ac1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5b8124ecdbff6b00144cfbc61d96195b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>5b8124ecdbff6b00144cfbc61d96195b</id>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-19 20:15:10</sys_created_on>
+        <sys_id>d38124ecdbff6b00144cfbc61d96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-19 20:15:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5b8124ecdbff6b00144cfbc61d96195b</id>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-19 20:15:10</sys_created_on>
+        <sys_id>5b8124ecdbff6b00144cfbc61d96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-19 20:15:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value>{{e0e816b9-7225-487a-bee3-ff72c30dd9a4.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5b8124ecdbff6b00144cfbc61d96195b</id>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-19 20:15:10</sys_created_on>
+        <sys_id>978124ecdbff6b00144cfbc61d96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-19 20:15:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value/>
+    </sys_element_mapping>
 </record_update>

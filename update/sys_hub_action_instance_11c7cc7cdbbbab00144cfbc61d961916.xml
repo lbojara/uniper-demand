@@ -2,6 +2,7 @@
 <record_update table="sys_hub_action_instance">
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
         <comment>Solution design task</comment>
         <compiled_snapshot display_value="Create Task">2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
@@ -25,4 +26,70 @@
         <sys_updated_on>2019-02-20 13:01:01</sys_updated_on>
         <ui_id>6d2ff693-08e6-407d-82a9-9b927cda918c</ui_id>
     </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=11c7cc7cdbbbab00144cfbc61d961916"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>11c7cc7cdbbbab00144cfbc61d961916</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-20 13:01:01</sys_created_on>
+        <sys_id>65c7cc7cdbbbab00144cfbc61d961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-20 13:01:01</sys_updated_on>
+        <value>x_mscdx_demand_demand_task</value>
+        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>11c7cc7cdbbbab00144cfbc61d961916</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-20 13:01:01</sys_created_on>
+        <sys_id>a1c7cc7cdbbbab00144cfbc61d961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-20 13:01:01</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">ff3a6335531003003bf1d9109ec58777</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=11c7cc7cdbbbab00144cfbc61d961916"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>11c7cc7cdbbbab00144cfbc61d961916</id>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-20 13:01:01</sys_created_on>
+        <sys_id>21c7cc7cdbbbab00144cfbc61d961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-20 13:01:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>short_description=Create solution design for {{Created_1.current.number}}^parent={{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>11c7cc7cdbbbab00144cfbc61d961916</id>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-20 13:01:01</sys_created_on>
+        <sys_id>5dc7cc7cdbbbab00144cfbc61d961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-20 13:01:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait</field>
+        <id>11c7cc7cdbbbab00144cfbc61d961916</id>
+        <sys_created_by>L18954</sys_created_by>
+        <sys_created_on>2019-02-20 13:01:01</sys_created_on>
+        <sys_id>99c7cc7cdbbbab00144cfbc61d961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>L18954</sys_updated_by>
+        <sys_updated_on>2019-02-20 13:01:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
 </record_update>
