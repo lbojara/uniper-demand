@@ -23,15 +23,15 @@
         <sys_created_by>L18954</sys_created_by>
         <sys_created_on>2019-02-17 11:05:25</sys_created_on>
         <sys_id>ae8094b3db6be700144cfbc61d9619fa</sys_id>
-        <sys_mod_count>18</sys_mod_count>
-        <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-04-18 09:49:12</sys_updated_on>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_updated_by>M63007</sys_updated_by>
+        <sys_updated_on>2019-07-05 11:00:26</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>2.0.8</version>
+        <version>2.0.9</version>
     </sys_app>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#30303</average_image_color>
