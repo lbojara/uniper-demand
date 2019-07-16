@@ -6,7 +6,7 @@
         <action_target/>
         <action_target_ref display_value="a7d1a406dbfb6b003d67ff361d9619bc.1.xpath">dae6ec86dbfb6b003d67ff361d9619f3</action_target_ref>
         <active>true</active>
-        <content><![CDATA[Select the "Create normal Demand" option.]]></content>
+        <content><![CDATA[Select the &#34;Create normal Demand&#34; option.]]></content>
         <guide/>
         <implicit>false</implicit>
         <link/>

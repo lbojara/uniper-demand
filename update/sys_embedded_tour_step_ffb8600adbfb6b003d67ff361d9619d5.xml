@@ -6,7 +6,7 @@
         <action_target/>
         <action_target_ref display_value="sys_display.x_mscdx_demand_demand.u_requ">77b8a40adbfb6b003d67ff361d9619c9</action_target_ref>
         <active>true</active>
-        <content><![CDATA[Fill in the "Requested for" field to identify the person for whom a Demand is created. This can be you or any other user with permissions to report new needs.]]></content>
+        <content><![CDATA[Fill in the &#34;Requested for&#34; field to identify the person for whom a Demand is created. This can be you or any other user with permissions to report new needs.]]></content>
         <guide display_value="How to create a normal Demand?">8fb72cc6dbfb6b003d67ff361d96194a</guide>
         <implicit>false</implicit>
         <link/>

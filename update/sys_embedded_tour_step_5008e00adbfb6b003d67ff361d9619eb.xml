@@ -6,7 +6,7 @@
         <action_target/>
         <action_target_ref display_value="ul#collapseIdd2cd06d9db732b003d67ff361d9">9c08a40adbfb6b003d67ff361d9619b8</action_target_ref>
         <active>true</active>
-        <content><![CDATA[To start the process of creating a new Demand press the "Create New" button.]]></content>
+        <content><![CDATA[To start the process of creating a new Demand press the &#34;Create New&#34; button.]]></content>
         <guide display_value="How to create a normal Demand?">8fb72cc6dbfb6b003d67ff361d96194a</guide>
         <implicit>false</implicit>
         <link/>

@@ -6,7 +6,7 @@
         <action_target/>
         <action_target_ref display_value="x_mscdx_demand_demand.opened_by_label">a068a40adbfb6b003d67ff361d9619c6</action_target_ref>
         <active>true</active>
-        <content><![CDATA[The "Requested by" field will be filled in automatically with your name.]]></content>
+        <content><![CDATA[The &#34;Requested by&#34; field will be filled in automatically with your name.]]></content>
         <guide display_value="How to create a normal Demand?">8fb72cc6dbfb6b003d67ff361d96194a</guide>
         <implicit>false</implicit>
         <link/>

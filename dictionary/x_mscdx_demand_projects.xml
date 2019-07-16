@@ -11,6 +11,12 @@
             <element name="u_project_id"/>
         </index>
         <index name="index3">
+            <element name="u_project_name"/>
+        </index>
+        <index name="index4">
+            <element name="u_project_id"/>
+        </index>
+        <index name="index5">
             <element name="u_project_manager"/>
         </index>
     </element>

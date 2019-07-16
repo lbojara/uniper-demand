@@ -55,16 +55,16 @@
         <sys_created_by>L18954</sys_created_by>
         <sys_created_on>2019-02-26 15:26:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>f462ab6adb372340144cfbc61d961957</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_id>e0f4c79fdb6afb40144cfbc61d961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Project manager</sys_name>
         <sys_package display_value="Demand" source="x_mscdx_demand">ae8094b3db6be700144cfbc61d9619fa</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Demand">ae8094b3db6be700144cfbc61d9619fa</sys_scope>
         <sys_update_name>sys_dictionary_x_mscdx_demand_projects_u_project_manager</sys_update_name>
-        <sys_updated_by>L18954</sys_updated_by>
-        <sys_updated_on>2019-03-02 14:45:33</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-07-15 14:05:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
