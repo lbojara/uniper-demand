@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Demand Task" max_length="40" name="x_mscdx_demand_demand_task" sizeclass="39" type="collection">
+    <element audit="true" extends="task" label="Demand Task" max_length="40" name="x_mscdx_demand_demand_task" type="collection">
         <element choice="1" label="Complexity" max_length="40" name="u_complexity" type="choice">
             <choice>
                 <element label="Low" sequence="100" value="low"/>
